@@ -1,0 +1,139 @@
+@media all and (max-width: 1230px) {
+	img.demon{
+	left: -187px;
+	bottom: 0;
+	width: 60%;
+	}
+
+	img.demon2 {
+	right: -148px;
+	bottom: 18px;
+	width: 54%;
+	
+	}
+}
+
+
+@media all and (max-width: 1037px) {
+	img.demon{
+	left: -209px;
+	bottom: 0;
+	width: 65%;
+	}
+
+	img.demon2 {
+	right: -193px;
+	bottom: 18px;
+	width: 59%;
+
+	
+	}
+
+	div.about {
+	width: 100%;
+	background-size: 100%;
+
+	}
+
+	select.metalGenre {
+	width: 100%;
+	margin-bottom: 50px;
+
+	}
+
+	input.artistLoc {
+	width: 100%;
+	margin-top: 5px;
+	}
+
+	input[type=submit]{
+		width:100%;
+		margin-top: 50px;
+	}
+
+	form.search {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+}
+
+@media all and (max-width: 638px) {
+		img.demon{
+		left: -209px;
+		bottom: 0;
+		width: 90%;
+		}
+
+		img.demon2 {
+		right: -193px;
+		bottom: 18px;
+		width: 85%;
+
+	}
+
+
+}	
+
+@media all and (max-width: 540px) {
+
+
+	img.demon{
+	left: -209px;
+	bottom: 0;
+	width: 85%;
+	}
+
+	img.demon2 {
+	right: -193px;
+	bottom: 18px;
+	width: 80%;
+	
+	}
+
+
+.container{
+	min-height: 200px;
+	margin-bottom: 0;
+}
+
+
+input[type=submit]{
+	margin-top:20px;
+	
+	}
+
+	select.metalGenre{
+		margin-top: 20px;
+	}
+
+	input.artistLoc {
+	margin-top:20px;
+	}
+
+	span{
+		padding: 0;
+	}
+
+	.container{
+		padding: 0;
+		padding-top: 50px;
+	}
+
+}
+
+
+@media all and (max-width: 401px) {
+
+	img.demon{
+	display: none;
+	}
+
+	img.demon2 {
+	display: none;
+	
+	}
+}

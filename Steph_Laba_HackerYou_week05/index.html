@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lora:100,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'> -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:100,300italic,400italic,700italic,400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/animate.css">
+	<link rel="icon" type="image/x-icon" href="i/favicon.ico" />
+
+	<title>KVLT SCÖRE</title>
+</head>
+<body>
+<!-- 
+Your API Key: PWJEF8DOKLGWYRDMH -->
+
+<div class="wrapper">
+<img class="demon" src="i/demonDog.png" alt="">
+<img class="demon2" src="i/demonDogR.png" alt="">
+	<header>
+	<div class="headerBorderOutside">
+		<div class="headerBorderInner">
+			<h1 class="fadeIn">KVLT <br> SCÖRE</h1>
+		</div>
+		<!-- .headerBorderInner end -->
+	</div>
+	<!-- .headerBorder end -->
+	<!-- <hr class="head"> -->
+	<div class="about">
+		<p class="fadeIn">KVLT SCÖRE is an interactive web app that tracks the amount of Heavy Metal bands globally.  It is powered by the Echo Nest API, an online music database. A user enters a country and metal sub genre of their choosing into the search fields and data is returned in the form of a KVLT RATING. KVLT RATINGS are based on the amount of recorded bands in the Echo Nest API for a given country, depending upon the amount of bands, the KVLT SCÖRE rates how KVLT a country is. </p>
+
+			<blockquote>&ldquo;Inside crystal mountain Evil takes its form
+			Inside crystal mountain Commandments are reborn&rdquo;<em> - Crystal Mountain, DEATH</em></blockquote>
+
+		<hr class="head">
+
+		<a class="scroll" data-scroll  href="#bazinga"><img class="flash flashing" src="i/arrow.png" alt=""></a>
+	</div>
+</header>
+
+<section class="bandSec" id="bazinga">
+	<!-- 	<img class="demon" src="i/demonDog.png" alt="">
+		<img class="demon2" src="i/demonDogR.png" alt=""> -->
+<div class="wrapperForm">
+	<h3 class="findKvltScore">Find a KVLT SCÖRE</h3>
+	<hr class="hKvlt">
+
+		<div class="kvltForm">
+			<form action="" class="search">
+				<label for="metalGenre">Choose your sub-genre:</label>
+				<select name="metal" class="metalGenre" placeholder="input a country">
+				    <option value="black metal">Black Metal</option>
+				    <option value="thrash metal">Thrash Metal</option>
+				    <option value="power metal">Power Metal</option>
+				    <option value="death metal">Death Metal</option>
+				    <option value="metal">All the Metal</option>
+				</select>
+				<br>
+				<label class="selectCountryLabel" for="">Select your Country:</label>
+				<input type="text" class="artistLoc" required="true" placeholder="input a country">
+				<input type="submit" value="submit"  class="submit"> 
+			</form>
+				</div>
+			<!-- end .kvltForm -->
+	</div>
+	<!-- end .wrapperForm -->
+
+	
+
+	<div id="cont" class="container"></div>
+	<!-- end .container -->
+	<!-- <img src="i/dragon.jpg" alt=""> -->
+	<div></div>
+</section >
+<!-- end .bandSec section -->
+	<footer class="footer">
+		
+		<p class="footerP">
+			built by <a href="http://Stephlaba.com" target="blank_">Steph Laba</a> 2015 | 
+			API:<a href="http://developer.echonest.com/" target="blank_"> The Echo Nest </a>|
+			Artwork By Albrecht Durer &amp; Claude Paradin
+		</p>
+
+
+	</footer>
+</div>
+<!-- end wrapper -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/smooth-scroll.min.js"></script>
+<script src="scripts/app.js"></script>
+	
+</body>
+</html>
